@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quiz 1</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <style>
+    body{
+        background-color: rgb(201, 255, 185);
+    }
+    a{
+        font-size: 50px;
+        text-decoration: underline wavy blue;
+        color: blue;
+    }
+    p{
+        font-size: 20px;
+        color: salmon;
+    }
+    div > p{
+        border: 6px solid red;
+        background-color: black;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1 style="font-size: 50px; color: royalblue;">Quiz 1</h1>
+    <h1>1. What is HTML?</h1>
+    <textarea cols="80" rows="3"></textarea>
+    <h1>2. Explain the use of head.</h1>
+    <textarea cols="80" rows="3"></textarea>
+    <h1>3. Write a boilerplate of HTML.</h1>
+    <textarea cols="100" rows="3"></textarea>
+    <h1>4. Write a syntax of img tag.</h1>
+    <textarea cols="80" rows="3"></textarea>
+    <h1>5. Include an image of an apple in your webpage.</h1>
+    <img src="https://cdn3.volusion.com/hckyx.hepad/v/vspfiles/photos/CONC-REDAPPLE-2.jpg?1396136943" height="450" width="450">
+    <h1>6. Create a table with column StudentId, Name, Age, Grades(A,B,C,D).</h1>
+    <table border="1" text-align="center">
+        <tr>
+            <td style="text-align: center; vertical-align: middle">StudentId</td><td style="text-align: center; vertical-align: middle">Name</td><td style="text-align: center; vertical-align: middle">Age</td><td style="text-align: center; vertical-align: middle">Grades</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; vertical-align: middle">18051</td><td style="text-align: center; vertical-align: middle">Jihwan</td><td style="text-align: center; vertical-align: middle">16</td><td style="text-align: center; vertical-align: middle">A</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; vertical-align: middle">18007</td><td style="text-align: center; vertical-align: middle">Susan</td><td style="text-align: center; vertical-align: middle">15</td><td style="text-align: center; vertical-align: middle">B</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; vertical-align: middle">18023</td><td style="text-align: center; vertical-align: middle">John</td><td style="text-align: center; vertical-align: middle">16</td><td style="text-align: center; vertical-align: middle">A</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; vertical-align: middle">18087</td><td style="text-align: center; vertical-align: middle">Ann</td><td style="text-align: center; vertical-align: middle">17</td><td style="text-align: center; vertical-align: middle">B</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; vertical-align: middle">18034</td><td style="text-align: center; vertical-align: middle">Andy</td><td style="text-align: center; vertical-align: middle">18</td><td style="text-align: center; vertical-align: middle">A</td>
+        </tr>
+    </table>
+    <h1>7. Create a mini comics gallery use table.</h1>
+    <table border="1">
+        <tr>
+            <td><img height="100" width="200" src="https://vignette.wikia.nocookie.net/onepiece/images/8/87/One_Piece_Anime_Logo.png/revision/latest?cb=20140921221019"></td>
+            <td><img height="100" width="200" src="https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/2kHv/image/L7d7tYhT6LC_XQ2YJ5GKF8VeyO0.jpg"></td>
+            <td><img height="100" width="200" src="https://i.kym-cdn.com/entries/icons/mobile/000/024/803/Slider2.jpg"></td>
+        </tr>
+        <tr>
+            <td style="text-align: center; vertical-align: middle">ONE PIECE</td>
+            <td style="text-align: center; vertical-align: middle">Detective Conan</td>
+            <td style="text-align: center; vertical-align: middle">Tower of God</td>
+        </tr>
+    </table>
+    <h1>8. For a webpage create a css file and link it with the respective HTML file.</h1>
+    <h1>9. Explain unordered list and create an unordered list of electronic gadgets(4~5).</h1>
+    <textarea cols="80" rows="3"></textarea>
+    <ul>
+        <li>Keyboard</li>
+        <li>Air Fryer</li>
+        <li>Toaster</li>
+        <li>Alarm Clock</li>
+        <li>Headphone</li>
+    </ul>
+    <h1>10. Explain anchor tag a. Create an anchor tag to Facebook.</h1>
+    <textarea cols="80" rows="3"></textarea><br>
+    <a href="https://www.facebook.com/">Facebook</a>
+    <h1>11. Explain paragraph tag p. Using it write a paragraph about your home town.</h1>
+    <textarea cols="80" rows="3"></textarea>
+    <p style="background-color: rgb(201, 255, 185); border: 6px solid rgb(201, 255, 185);">My home town is Suwon in South Korea. It is very famous for the fortress, Suwon hwaseong. The following image shows its appearance.</p>
+    <img src="https://isangoassets.isango.com/productimages/product/27984/Seoul_30104_1.jpg" height="200">
+    <h1>12. Explain a div tag. Create a div with a paragraph. Give a border and background color to your div.</h1>
+    <textarea cols="80" rows="3"></textarea>
+    <div><p>This is a div with a paragraph!</p></div>
+    <h1>13. Explain Form. Create a student registration form.</h1>
+    <textarea cols="80" rows="3"></textarea>
+    <h1>Student Registration Form</h1>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputName1">First name</label>
+            <input type="text" class="form-control" id="exampleInputName1" placeholder="Jihwan">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputName2">Last name</label>
+            <input type="text" class="form-control" id="exampleInputName2" placeholder="Park">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">E-mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="email@example.com">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPhone1">Phone Number</label>
+            <input type="text" class="form-control" id="exampleInputPhone1" placeholder="Write your whole phone number">
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox">I want to registrate.</label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+    <h1>14. What is CSS?</h1>
+    <textarea cols="80" rows="3"></textarea>
+    <h1>15. Explain Colors in CSS.</h1>
+    <textarea cols="80" rows="3"></textarea>
+    <h1>16. Explain three different ways of CSS styling.</h1>
+    <textarea cols="80" rows="3"></textarea>
+    </div>
+</body>
+</html>
+
+HTML means Hyper Text Markup Language. It describes the structure of a web page.
+
+The head is a metadata, data about data, for HTML. It means that the head is data about the HTML document. Thus, the head defines the document title, character set, styles, scripts, and other meta information.
+
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial- scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <p>Hello world! This is HTML5 Boilerplate.</p>
+    <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js></script>
+</body>
+</html>
+
+<img src="(url)" height="(height)" width="(width)">
+
+Unordered list has items that have no special order. We can create it with <ul> tag. Each item is marked with a bullet.
+
+We can define a hyperlink, using an anchor tag, which connects the web page with another. The href attribute of an anchor tag indicates the link's destination.
+
+We can define a paragraph with a paragraph tag, <p>. It doesn't need any attributes, but we can style it with CSS.
+
+We can define a division or a selection with a div tag in HTML. We often use it as a container for other HTML elements to style it with CSS.
+
+We can define a form, using a form tag, which is used to collect user input. The input element is the most important form element. We can make textareas, radio buttons and submit buttons by changing the type attribute of input element.
+
+CSS stands for Cascading Style Sheets. It is a language which describes the style of an HTML document.
+
+There are four ways to define colors. First, you can define the color with its name. Second, you can use a hex value. Third, you can use the rgb function by defining three values for red, green and blue. Fourth, you can use the rgba function which defines not only rgb values but also an alpha value for transparency.
+
+First way is the inline styling. You can style a paragraph directly by using this way. Here's an example. <p style="color: blue;">Hello, world!</p>
+Second way is using the style tag. Style tag declares style sheets within your HTML document. Each style tag must be located between the head tags.
+Third way is making a css file. You can move contents surrounded by style tags to a new css file, and link the html file with the css file.

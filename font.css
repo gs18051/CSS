@@ -1,0 +1,9 @@
+p{
+    font-family: 'Courier New';
+    line-height: 300%;
+    text-align: center;
+    font-size: 300%;
+    color: darkcyan;
+    font-weight: bolder;
+    text-decoration: underline overline line-through wavy blue;
+}

@@ -1,0 +1,20 @@
+.class{
+    font-family: 'Courier New';
+    line-height: 200%;
+    text-align: center;
+    font-size: 50px;
+    color: darkcyan;
+    font-weight: lighter;
+    text-decoration: underline overline wavy blue;
+    border-left: 6px double blue;
+    border-right: 6px double blue;
+}
+p{
+    font-family: 'Impact';
+    line-height: 200%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: border;
+    color: darkgrey;
+    text-decoration: line-through red;
+}

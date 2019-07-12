@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(201, 255, 185);
+}
+a{
+    font-size: 50px;
+    text-decoration: underline wavy blue;
+    color: blue;
+}
+p{
+    font-size: 20px;
+    color: salmon;
+}
+div > p{
+    border: 6px solid red;
+    background-color: black;
+}

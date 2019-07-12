@@ -1,0 +1,26 @@
+.border1{
+    border-left: 6px solid red;
+    border-top: 10px double blue;
+    border-right: 6px solid darkolivegreen;
+    border-bottom: 10px double wheat;
+    background-color: lightgrey;
+}
+#heading{
+    color: green;
+}
+/*star selector*/
+*{
+    color: blue;
+}
+ul li a{
+    color: greenyellow;
+}
+div ~ p{
+    color: yellow;
+}
+div + h2{
+    color: pink;
+}
+div > p{
+    color: black;
+}
